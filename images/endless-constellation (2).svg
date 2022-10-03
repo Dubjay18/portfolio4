@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1158.7061"
+   height="987.54901"
+   viewBox="0 0 1298.2701 1106.4975"
+   version="1.1"
+   id="svg46"
+   sodipodi:docname="429e6dfe19a5de089c0864db8d68e171.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs50" />
+  <sodipodi:namedview
+     id="namedview48"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0" />
+  <rect
+     fill="#330033"
+     width="800"
+     height="800"
+     id="rect2"
+     x="261.19321"
+     y="201.19225" />
+  <g
+     fill="none"
+     stroke="#440044"
+     stroke-width="1.3"
+     id="g14"
+     transform="translate(261.1932,201.19224)">
+    <path
+       d="m 769,229 268,31.9 M 927,880 731,737 520,660 309,538 40,599 295,764 126.5,879.5 40,599 -197,493 102,382 -31,229 126.5,79.5 -69,-63"
+       id="path4" />
+    <path
+       d="m -31,229 268,32 153,121 213,111 -294.5,44.5 -207,-156 M 370,905 295,764"
+       id="path6" />
+    <path
+       d="M 520,660 578,842 731,737 840,599 603,493 520,660 295,764 309,538 390,382 539,269 769,229 577.5,41.5 370,105 295,-36 126.5,79.5 237,261 102,382 40,599 -69,737 127,880"
+       id="path8" />
+    <path
+       d="M 520,-140 578.5,42.5 731,-63 M 603,493 539,269 237,261 370,105 M 902,382 539,269 M 390,382 H 102"
+       id="path10" />
+    <path
+       d="M -222,42 126.5,79.5 370,105 539,269 577.5,41.5 927,80 769,229 902,382 603,493 731,737 M 295,-36 577.5,41.5 M 578,842 295,764 M 40,-201 127,80 M 102,382 -261,269"
+       id="path12" />
+  </g>
+  <g
+     fill="#550055"
+     id="g44"
+     transform="translate(261.1932,201.19224)">
+    <circle
+       cx="769"
+       cy="229"
+       r="14"
+       id="circle16" />
+    <circle
+       cx="539"
+       cy="269"
+       r="14"
+       id="circle18" />
+    <circle
+       cx="603"
+       cy="493"
+       r="14"
+       id="circle20" />
+    <circle
+       cx="731"
+       cy="737"
+       r="14"
+       id="circle22" />
+    <circle
+       cx="520"
+       cy="660"
+       r="14"
+       id="circle24" />
+    <circle
+       cx="309"
+       cy="538"
+       r="14"
+       id="circle26" />
+    <circle
+       cx="295"
+       cy="764"
+       r="14"
+       id="circle28" />
+    <circle
+       cx="40"
+       cy="599"
+       r="14"
+       id="circle30" />
+    <circle
+       cx="102"
+       cy="382"
+       r="14"
+       id="circle32" />
+    <circle
+       cx="127"
+       cy="80"
+       r="14"
+       id="circle34" />
+    <circle
+       cx="370"
+       cy="105"
+       r="14"
+       id="circle36" />
+    <circle
+       cx="578"
+       cy="42"
+       r="14"
+       id="circle38" />
+    <circle
+       cx="237"
+       cy="261"
+       r="14"
+       id="circle40" />
+    <circle
+       cx="390"
+       cy="382"
+       r="14"
+       id="circle42" />
+  </g>
+</svg>
