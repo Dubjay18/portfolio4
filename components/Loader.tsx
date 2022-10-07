@@ -58,9 +58,9 @@ const itemMain = {
   },
 }
 
-function Loader({ setLoading }) {
+function Loader({ setLoading }: {setLoading: (state: boolean)=> void;}) {
   return (
-    <div className="h-screen overflow-y-hidden">
+    <div className="h-screen overflow-hidden">
       <motion.div
         variants={container}
         initial="hidden"
@@ -78,6 +78,7 @@ function Loader({ setLoading }) {
             className="animate-bounce"
           />
         </motion.div>
+        
       </motion.div>
     </div>
   )

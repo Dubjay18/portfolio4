@@ -9,10 +9,16 @@ import Skills from '../components/Skills'
 import Contact from '../components/Contact'
 import { SocialIcon } from 'react-social-icons'
 import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import Loader from '../components/Loader'
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<Boolean>(true)
+  useEffect(() => {
+    let Mybody = document.querySelector("body")
+    loading
+      ? (Mybody?.querySelector("body") as HTMLBodyElement )?.classList.add("loading")
+      : (Mybody?.querySelector("body") as HTMLBodyElement )?.classList.remove("loading");
+  }, [loading]);
   return (
     <div className="bg-slate-100">
       <Head>
@@ -56,7 +62,7 @@ const Home: NextPage = () => {
               </motion.div>
             ) : (
               <>
-                <div className="fixed left-0 z-50 flex min-h-screen w-[50px] flex-col items-center justify-center gap-6 bg-transparent ">
+                <div className="fixed left-0 z-50 hidden lg:flex min-h-screen w-[50px] flex-col items-center justify-center gap-6 bg-transparent ">
                   <div>
                     <SocialIcon
                       url="https://github.com/Dubjay18/"
@@ -79,7 +85,7 @@ const Home: NextPage = () => {
                     />
                   </div>
                 </div>
-                <Navbar />
+                <Navbar loading={loading} />
                 <Hero />
                 <About />
 

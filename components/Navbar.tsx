@@ -1,7 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import Mypic from '../images/mypic.png'
 import { motion } from 'framer-motion'
-function Navbar() {
+
+
+interface Props {
+  loading: boolean;
+}
+function Navbar({loading}:Props) {
   const [newBg, setNewBg] = useState(false)
   const [mobileNav, setMobileNav] = useState(false)
   useEffect(() => {
@@ -22,7 +27,7 @@ function Navbar() {
         <div className="lg:navbar-start">
           <div className="dropdown">
             <label
-              tabIndex="0"
+              tabIndex={0}
               className="btn btn-ghost lg:hidden "
               onClick={() => setMobileNav((prev) => !prev)}
             >
@@ -43,7 +48,7 @@ function Navbar() {
             </label>
           </div>
           <ul
-            tabIndex="0"
+            tabIndex={0}
             className={`dropdown-content menu rounded-box menu-compact absolute ${
               mobileNav ? 'top-0' : '-top-[1000px]'
             } left-0 flex h-screen w-full flex-col items-center justify-center gap-10 rounded-none bg-base-100 p-2 shadow transition-all duration-500 lg:hidden`}
@@ -65,7 +70,7 @@ function Navbar() {
             </li>
           </ul>
           <a className="btn btn-ghost text-xl normal-case text-[#4ECDC4]">
-            <motion.img
+           {!loading &&   <motion.img
               src={Mypic.src}
               alt=""
               height={40}
@@ -73,7 +78,8 @@ function Navbar() {
               className="mx-3"
               layoutId="main-image"
               transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1.6 }}
-            />
+            />}
+          
             Jayfolio
           </a>
         </div>
