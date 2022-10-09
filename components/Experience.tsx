@@ -4,7 +4,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import SimpleSlider from './SimpleSlider'
-import { SmoothScroll } from './SmoothScroll'
+import  SmoothScroll from './SmoothScroll'
 
 function Experience() {
   return (
@@ -20,7 +20,7 @@ function Experience() {
         </div>
       
         <div className="neumophic-card mx-auto w-[80vw] py-5 h-[600px]">
-          <SmoothScroll/>
+          <SimpleSlider/>
         </div>
       </div>
     </div>

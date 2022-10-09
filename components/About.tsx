@@ -11,7 +11,7 @@ import { useParallax } from 'react-scroll-parallax'
 import Personal from '../images/pp.png'
 function About() {
   const animation = useAnimation()
-  const { ref } = useParallax({ speed: 40 })
+  const { ref } = useParallax<HTMLDivElement>({ speed: 40 })
 
   return (
     <div className="about relative bg-slate-100 text-slate-900 shadow">

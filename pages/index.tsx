@@ -54,7 +54,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className=" min-h-screen overflow-x-hidden text-base-content">
-        <AnimateSharedLayout type="crossfade">
+        <AnimateSharedLayout>
           <AnimatePresence>
             {loading ? (
               <motion.div className="cus-scroll overflow-y-hidden" key="loader">
