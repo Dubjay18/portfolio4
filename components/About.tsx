@@ -14,7 +14,10 @@ function About() {
   const { ref } = useParallax<HTMLDivElement>({ speed: 40 })
 
   return (
-    <div className="about relative bg-slate-100 text-slate-900 shadow">
+    <div
+      id="about"
+      className="about relative bg-slate-100 text-slate-900 shadow"
+    >
       <div
         className="flex  min-h-[92vh] items-center justify-around "
         id="about"

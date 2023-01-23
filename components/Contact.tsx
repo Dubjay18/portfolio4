@@ -2,7 +2,7 @@ import React from 'react'
 import { PhoneIcon, MailIcon } from '@heroicons/react/solid'
 function Contact() {
   return (
-    <div className="pb-20">
+    <div id="contact" className="scroll-m-16 scroll-p-6 pb-20">
       <div className="my-20 flex  w-full items-center justify-center px-4">
         {' '}
         <hr className="mx-5 w-24 rounded-md border-t-4 border-secondary" />
@@ -36,13 +36,14 @@ function Contact() {
             </div>
             <textarea
               id=""
-              rows="10"
+              rows={10}
               className="mt-10 resize-none rounded-lg bg-slate-900 px-4 py-2 text-lg font-bold text-white opacity-90 shadow-lg outline-none md:w-[400px]"
               placeholder="Message"
             ></textarea>
             <br />
             <br />
             <button
+              type="button"
               className="rounded px-7 py-4 text-white shadow-sm transition-all duration-500 hover:scale-110 hover:opacity-80"
               style={{
                 background:

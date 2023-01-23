@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react'
 import Mypic from '../images/mypic.png'
 import { motion } from 'framer-motion'
 
-
 interface Props {
-  loading: boolean;
+  loading: boolean
 }
-function Navbar({loading}:Props) {
+function Navbar({ loading }: Props) {
   const [newBg, setNewBg] = useState(false)
   const [mobileNav, setMobileNav] = useState(false)
   useEffect(() => {
@@ -56,46 +55,47 @@ function Navbar({loading}:Props) {
             <button type="button" onClick={() => setMobileNav(false)}>
               x
             </button>
-            <li className="text-2xl my-5">
+            <li className="my-5 text-2xl">
               <a>My Projects</a>
             </li>
-            <li className="text-2xl my-5">
+            <li className="my-5 text-2xl">
               <a>About Me</a>
             </li>
-            <li className="text-2xl my-5">
+            <li className="my-5 text-2xl">
               <a>My Tools</a>
             </li>
-            <li className="text-2xl my-5">
+            <li className="my-5 text-2xl">
               <a>Contact Me</a>
             </li>
           </ul>
           <a className="btn btn-ghost text-xl normal-case text-[#4ECDC4]">
-           {!loading &&   <motion.img
-              src={Mypic.src}
-              alt=""
-              height={40}
-              width={40}
-              className="mx-3"
-              layoutId="main-image"
-              transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1.6 }}
-            />}
-          
+            {!loading && (
+              <motion.img
+                src={Mypic.src}
+                alt=""
+                height={40}
+                width={40}
+                className="mx-3"
+                layoutId="main-image"
+                transition={{ ease: [0.6, 0.01, -0.05, 0.9], duration: 1.6 }}
+              />
+            )}
             Jayfolio
           </a>
         </div>
         <div className="navbar-end hidden lg:flex ">
-          <ul className="menu menu-horizontal p-0 !justify-between w-3/4 mx-auto">
+          <ul className="menu menu-horizontal mx-auto w-3/4 !justify-between p-0">
             <li className="cursor-pointer">
-              <a>My Projects</a>
+              <a href="#projects">My Projects</a>
             </li>
             <li className="cursor-pointer">
-              <a>About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li className="cursor-pointer">
-              <a>My Tools</a>
+              <a href="#tools">My Tools</a>
             </li>
             <li className="cursor-pointer">
-              <a>Contact Me</a>
+              <a href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>

@@ -2,7 +2,10 @@ import React from 'react'
 
 function Skills() {
   return (
-    <div className=" projectBg font-poppins bg  flex min-h-[92vh] items-center justify-around">
+    <div
+      id="tools"
+      className=" projectBg font-poppins bg  flex min-h-[92vh] items-center justify-around"
+    >
       <div>
         {' '}
         <div className="my-20 flex  w-full items-center justify-center px-4">
@@ -13,7 +16,7 @@ function Skills() {
           </h1>{' '}
           <hr className="mx-5 w-24 rounded-md border-t-4 border-secondary" />
         </div>
-        <div className="mx-10 my-8 grid grid-col-1 md:grid-cols-2 gap-8 md:pt-10 lg:grid-cols-4 !text-white">
+        <div className="grid-col-1 mx-10 my-8 grid gap-8 !text-white md:grid-cols-2 md:pt-10 lg:grid-cols-4">
           <div className="neumophic-card flex items-center rounded-md bg-base-200  p-8 shadow-md">
             {' '}
             <img

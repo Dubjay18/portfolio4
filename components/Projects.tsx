@@ -4,7 +4,10 @@ import projectData from './data'
 import { motion } from 'framer-motion'
 function Projects() {
   return (
-    <div className=" min-h-screen bg-slate-100 pb-20 text-slate-900">
+    <div
+      id="projects"
+      className=" min-h-screen scroll-m-20 scroll-p-6 bg-slate-100 pb-20 text-slate-900"
+    >
       <div className="mt-20">
         <div className="flex w-full  items-center justify-center px-4">
           {' '}
