@@ -1,6 +1,7 @@
 import React from 'react'
 import SvgLine from './SvgLine'
 import { motion } from 'framer-motion'
+import { ArrowDownIcon } from '@heroicons/react/solid'
 
 function Hero() {
   const sentence = {
@@ -37,9 +38,9 @@ function Hero() {
       /> */}
 
       <div className="hero-content text-center">
-        <div className="md:max-w-md max-w-xs mx-auto">
+        <div className="mx-auto max-w-xs md:max-w-md">
           <p className="py-6 text-[#4ECDC4]">Hello, I'm</p>
-          <h5 className="md:text-7xl text-4xl font-bold">
+          <h5 className="text-4xl font-bold md:text-7xl">
             <span className="txt rounded-md bg-slate-100 p-2 text-black">
               Yan
             </span>
@@ -68,9 +69,12 @@ function Hero() {
             })}
             <br />
           </motion.p>
-          <button className="btn  rounded-lg border-none bg-[#4ECDC4] !px-10 text-black transition-all duration-500 hover:scale-110 hover:bg-[#4ECDC4]/70 hover:text-white hover:shadow">
-            Get Started
-          </button>
+          <a
+            href="#about"
+            className="btn  rounded-lg border-none bg-[#4ECDC4] !px-10 text-black transition-all duration-500 hover:scale-110 hover:bg-[#4ECDC4]/70 hover:text-white hover:shadow"
+          >
+            Scroll down <ArrowDownIcon className="h-5 w-5" />
+          </a>
         </div>
       </div>
     </div>

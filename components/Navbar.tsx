@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Mypic from '../images/mypic.png'
 import { motion } from 'framer-motion'
+import { PlusIcon } from '@heroicons/react/solid'
 
 interface Props {
   loading: boolean
@@ -53,19 +54,27 @@ function Navbar({ loading }: Props) {
             } left-0 flex h-screen w-full flex-col items-center justify-center gap-10 rounded-none bg-base-100 p-2 shadow transition-all duration-500 lg:hidden`}
           >
             <button type="button" onClick={() => setMobileNav(false)}>
-              x
+              <PlusIcon className="h-10 w-10 rotate-[45deg] text-[#4ECDC4]" />
             </button>
             <li className="my-5 text-2xl">
-              <a>My Projects</a>
+              <a href="#projects" onClick={() => setMobileNav(false)}>
+                My Projects
+              </a>
             </li>
             <li className="my-5 text-2xl">
-              <a>About Me</a>
+              <a href="#about" onClick={() => setMobileNav(false)}>
+                About Me
+              </a>
             </li>
             <li className="my-5 text-2xl">
-              <a>My Tools</a>
+              <a href="#tools" onClick={() => setMobileNav(false)}>
+                My Tools
+              </a>
             </li>
             <li className="my-5 text-2xl">
-              <a>Contact Me</a>
+              <a href="#contact" onClick={() => setMobileNav(false)}>
+                Contact Me
+              </a>
             </li>
           </ul>
           <a className="btn btn-ghost text-xl normal-case text-[#4ECDC4]">

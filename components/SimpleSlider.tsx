@@ -26,9 +26,38 @@ export default function SimpleSlider() {
       >
         <SwiperSlide>
           {' '}
-          <div className=" card items-center rounded-md py-20 md:px-10">
+          <div className=" card items-center rounded-md py-20 px-10">
             <div className="flex w-full justify-center">
-              <div className=" text-white md:mx-28 ">
+              <div className=" mx-10 text-white md:mx-28">
+                <h2 className="font-poppins font-medium text-secondary  md:text-2xl">
+                  Frontend Engineer{' '}
+                  <span className="text-lime-400 underline !decoration-dashed">
+                    @Veenode Technologies
+                  </span>
+                </h2>
+                <p className="font-poppins my-5">Internship(Remote)</p>
+                <p className="font-poppins my-5">August 2022 - Present</p>
+                <div className="exp forest:text-white  lemonade:text-accent font-poppins  w-fit">
+                  <ul>
+                    <li className="">
+                      Worked with developers to build an Escrow based payment
+                      Platform called Flutipay.
+                    </li>
+                    <li>
+                      Worked with Next.js, Ant Design, Tailwind CSS, redux and
+                      RestApis.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {' '}
+          <div className=" card items-center rounded-md py-20 px-10">
+            <div className="flex w-full justify-center">
+              <div className=" mx-10 text-white md:mx-28">
                 <h2 className="font-poppins font-medium text-secondary  md:text-2xl">
                   React Js Developer{' '}
                   <span className="text-lime-400 underline !decoration-dashed">
@@ -96,7 +125,7 @@ export default function SimpleSlider() {
                   </span>
                 </h2>
                 <p className="font-poppins my-2">Internship</p>
-                <p className="font-poppins my-2">Feb 2022 - Present</p>
+                <p className="font-poppins my-2">Feb 2022 - Nov 2022</p>
                 <div className="exp forest:text-white  lemonade:text-accent font-poppins  w-fit">
                   <ul>
                     <li className="">

@@ -14,11 +14,15 @@ import Loader from '../components/Loader'
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<Boolean>(true)
   useEffect(() => {
-    let Mybody = document.querySelector("body")
+    let Mybody = document.querySelector('body')
     loading
-      ? (Mybody?.querySelector("body") as HTMLBodyElement )?.classList.add("loading")
-      : (Mybody?.querySelector("body") as HTMLBodyElement )?.classList.remove("loading");
-  }, [loading]);
+      ? (Mybody?.querySelector('body') as HTMLBodyElement)?.classList.add(
+          'loading'
+        )
+      : (Mybody?.querySelector('body') as HTMLBodyElement)?.classList.remove(
+          'loading'
+        )
+  }, [loading])
   return (
     <div className="bg-slate-100">
       <Head>
@@ -62,7 +66,7 @@ const Home: NextPage = () => {
               </motion.div>
             ) : (
               <>
-                <div className="fixed left-0 z-50 hidden lg:flex min-h-screen w-[50px] flex-col items-center justify-center gap-6 bg-transparent ">
+                <div className="fixed left-0 z-50 hidden min-h-screen w-[50px] flex-col items-center justify-center gap-6 bg-transparent lg:flex ">
                   <div>
                     <SocialIcon
                       url="https://github.com/Dubjay18/"
@@ -94,6 +98,29 @@ const Home: NextPage = () => {
                 <Projects />
                 <Skills />
                 <Contact />
+                <footer className="flex justify-evenly bg-slate-900 py-5 px-2 lg:hidden">
+                  <div>
+                    <SocialIcon
+                      url="https://github.com/Dubjay18/"
+                      fgColor="white"
+                      className="w-5 rounded-lg   transition-all duration-500 hover:scale-125"
+                    />
+                  </div>
+                  <div>
+                    <SocialIcon
+                      url="https://www.linkedin.com/in/oluwayanfunmi-jeje-a023b2210/"
+                      fgColor="white"
+                      className="rounded-lg  transition-all duration-500 hover:scale-125"
+                    />
+                  </div>
+                  <div>
+                    <SocialIcon
+                      url="https://twitter.com/@YanfunmiJ"
+                      fgColor="white"
+                      className="rounded-lg  transition-all duration-500 hover:scale-125"
+                    />
+                  </div>
+                </footer>
               </>
             )}
           </AnimatePresence>
