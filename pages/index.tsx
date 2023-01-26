@@ -29,14 +29,14 @@ const Home: NextPage = () => {
         <title>Dev-jay</title>
         <meta
           name="description"
-          content="Jeje Yanfunmi - Dev-jay is an experienced full-stack developer that eats and breaths React js."
+          content="Jeje Yanfunmi - Dev-jay is an experienced software engineer that eats and breaths React js."
         />
         <meta property="og:url" content="https://jayfolio.vercel.app/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dev-jay" />
         <meta
           property="og:description"
-          content="Jeje Yanfunmi - Dev-jay is an experienced full-stack developer that eats and breaths React js."
+          content="Jeje Yanfunmi - Dev-jay is an experienced software engineer that eats and breaths React js."
         />
         <meta
           property="og:image"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         <meta name="twitter:title" content="Dev-jay" />
         <meta
           name="twitter:description"
-          content="Jeje Yanfunmi - Dev-jay is an experienced full-stack developer that eats and breaths React js."
+          content="Jeje Yanfunmi - Dev-jay is an experienced software engineer that eats and breaths React js."
         />
         <meta
           name="twitter:image"
