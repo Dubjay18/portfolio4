@@ -40,7 +40,7 @@ const Home: NextPage = () => {
         />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/dubinx/image/upload/v1656803174/OGimage_mgka5q.jpg"
+          content="https://res.cloudinary.com/dubinx/image/upload/v1674724482/Screenshot_2023-01-26_101046_ngvrut.png"
         />
 
         <meta name="twitter:card" content="summary_large_image" />
@@ -53,7 +53,7 @@ const Home: NextPage = () => {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/dubinx/image/upload/v1656803174/OGimage_mgka5q.jpg"
+          content="https://res.cloudinary.com/dubinx/image/upload/v1674724482/Screenshot_2023-01-26_101046_ngvrut.png"
         />
       </Head>
 
