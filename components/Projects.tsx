@@ -17,7 +17,7 @@ function Projects() {
           </h1>{' '}
           <hr className="mx-5 w-24 rounded-md border-t-4 border-secondary" />
         </div>
-        <div className="mx-auto mt-10 grid w-[80%] grid-flow-row-dense grid-cols-1 gap-3 lg:w-[99%] lg:grid-cols-2 xl:w-[80%] xl:grid-cols-3">
+        <div className="mx-auto mt-10 grid w-[80%] grid-flow-row-dense grid-cols-1 gap-5 lg:w-[99%] lg:grid-cols-2 xl:w-[80%] ">
           {projectData.map((pro, i) => {
             return (
               <motion.div
