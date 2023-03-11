@@ -30,7 +30,7 @@ function Projects() {
                   backgroundSize: 'cover',
                   backgroundColor: 'black',
                 }}
-                className=" group h-64 cursor-pointer rounded-xl shadow transition-all duration-500 hover:rotate-[2deg] hover:scale-95 lg:w-[400px]"
+                className=" group h-64 cursor-pointer rounded-xl shadow transition-all duration-500 hover:rotate-[2deg] hover:scale-95 "
               >
                 <div className="hidden h-full items-center justify-center rounded-xl text-white transition-all duration-500 group-hover:flex group-hover:bg-black/90">
                   <div className="flex flex-col items-center px-6">
