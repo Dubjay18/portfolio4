@@ -36,7 +36,7 @@ export default function SimpleSlider() {
                   </span>
                 </h2>
                 <p className="font-poppins my-5">Internship(Remote)</p>
-                <p className="font-poppins my-5">August 2022 - Present</p>
+                <p className="font-poppins my-5">August 2022 - Jan 2022</p>
                 <div className="exp forest:text-white  lemonade:text-accent font-poppins  w-fit">
                   <ul>
                     <li className="">
