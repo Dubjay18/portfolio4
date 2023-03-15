@@ -11,6 +11,7 @@ import { SocialIcon } from 'react-social-icons'
 import { AnimatePresence, AnimateSharedLayout, motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 import Loader from '../components/Loader'
+import CustomCursor from '../components/Cursor'
 const Home: NextPage = () => {
   const [loading, setLoading] = useState<Boolean>(true)
   useEffect(() => {
@@ -58,6 +59,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className=" min-h-screen overflow-x-hidden text-base-content">
+        {/* <CustomCursor /> */}
         <AnimateSharedLayout>
           <AnimatePresence>
             {loading ? (
