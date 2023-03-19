@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import projectData from './data'
 import { motion } from 'framer-motion'
+import ProjectCard from './ProjectCard'
 function Projects() {
   return (
     <div
@@ -17,7 +18,7 @@ function Projects() {
           </h1>{' '}
           <hr className="mx-5 w-24 rounded-md border-t-4 border-secondary" />
         </div>
-        <div className="mx-auto mt-10 grid w-[80%] grid-flow-row-dense grid-cols-1 gap-5 lg:w-[99%] lg:grid-cols-2 xl:w-[80%] ">
+        <div className="mx-auto mt-10 grid w-[80%] grid-flow-row-dense grid-cols-1 gap-5 lg:w-[99%]  xl:w-[80%] ">
           {projectData.map(({ image, name, desp, liveLink }, i) => (
             <motion.div
               key={i}
@@ -49,6 +50,15 @@ function Projects() {
                 </div>
               </div>
             </motion.div>
+            // <div key={i}>
+            //   <ProjectCard
+            //     image={image}
+            //     name={name}
+            //     desp={desp}
+            //     liveLink={liveLink}
+            //     index={i}
+            //   />
+            // </div>
           ))}
         </div>
       </div>

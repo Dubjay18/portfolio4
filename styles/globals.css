@@ -32,11 +32,11 @@
   font-family: Sora;
   scroll-behavior: smooth;
 }
-body {
+/* body {
   cursor: none;
-}
+} */
 
-.cursor {
+/* .cursor {
   position: fixed;
   top: 0;
   left: 0;
@@ -47,7 +47,7 @@ body {
   mix-blend-mode: difference;
   pointer-events: none;
   z-index: 9999;
-}
+} */
 
 a:hover,
 button:hover {
