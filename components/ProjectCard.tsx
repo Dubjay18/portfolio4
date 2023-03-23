@@ -14,7 +14,11 @@ function ProjectCard({ image, name, desp, liveLink, index }: IProps) {
         <Image src={image} className="rounded-md" />
       </div>
       <div className="z-20 -ml-6">
-        <h2 className="mb-4 text-right font-bold text-[#10182d]">{name}</h2>
+        <div className="mb-4 text-right font-bold">
+          <a href={liveLink} className=" text-[#10182d]">
+            {name}
+          </a>
+        </div>
         <div className="rounded bg-[#10182d] p-5 text-white">{desp}</div>
         <div className=" mt-5 flex items-center justify-end">
           <a
