@@ -39,7 +39,7 @@ function Hero() {
 
       /> */}
 
-        <div className="hero-content text-center">
+        <div className="hero-content z-20 text-center">
           <div className="mx-auto max-w-xs md:max-w-md">
             <p className="py-6 text-[#4ECDC4]">Hello, I'm</p>
             <h5 className="text-4xl font-bold md:text-7xl">
